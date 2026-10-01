@@ -1,0 +1,4 @@
+* text=auto
+prebuilt/*.img filter=lfs diff=lfs merge=lfs -text
+prebuilt/Image filter=lfs diff=lfs merge=lfs -text
+prebuilt/dtb filter=lfs diff=lfs merge=lfs -text
